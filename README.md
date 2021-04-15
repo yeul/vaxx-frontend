@@ -1,11 +1,64 @@
 # Vaxx Frontend
 
-## Documentation Links
+## Documentation 
 
-- [Tailwind CSS](https://tailwindcss.com/docs)
-- [NextJS](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/docs/)
-- [SASS](https://sass-lang.com/documentation)
+### `/src` Folder Structure
+
+- `/components` concerns any and all components that are not wired into the App's state. They may hold internal state of their own (ie, a form). Don't place any components in there wired into an overarching app/global state.
+   - `/atoms`: Atoms are UI elements that can’t be broken down any further and serve as the elemental building blocks of an interface.
+   - `/molecules`: Molecules are collections of atoms that form relatively simple UI components.
+   - `/organisms`: Organisms are relatively complex components that form discrete sections of an interface.
+- `/templates` Templates place components within a layout and demonstrate the design’s underlying content structure.
+- `/state`: React Context(s)
+- `/containers`: Components that are wired to the app state
+- `/utils`: Any and all utility functions.
+
+### File Naming Convention
+
+We will be using `kebab-case` for all filenames. This is to ensure that this repo is cross-compatible between Windows, Linux, and OSX. 
+
+### JS(X) Naming Convention
+
+`PascalCase` for all React Components.
+
+`camelCase` for all other Javascript
+
+### Types or Interfaces for PropTypes? 
+
+Use types. Here's an example: 
+
+```typescript 
+
+type ComponentProps = {
+    foo: string,
+    bar: number
+};
+
+const Component: React.FC<ComponentProps> = ({foo, bar}) => <div>{foo}{bar}</div>;
+
+```
+
+## Tabs or Spaces?
+
+Set your tab to insert 2 spaces on your text editor.
+
+### Should I use `any` in type?
+
+As a rule of thumb: no. We will turn away most PRs using an `any`. If you feel like you need to use `any`, here's what you can do: 
+1. Ask in discord if there is a way to solve around the `any`
+2. Leave a comment describing why `any` was used before submitting your PR.
+
+### Atomic Design Methodology
+
+Splitting up all **stateless** react components into the relevant folder related to the UI's concerns.
+
+### Links 
+* [Tailwind CSS](https://tailwindcss.com/docs)
+* [NextJS](https://nextjs.org/)
+* [TypeScript](https://www.typescriptlang.org/docs/)
+* [SASS](https://sass-lang.com/documentation)
+* [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chapter-2/)
+
 
 ## Privacy/ Trust, PII
 
@@ -75,6 +128,7 @@ Big idea: twitter followers see slots available
 - [ ] Establish accessibility compliance goals
   - Descriptive Buttons/links (non symbolic)
   - Low stimulus colour palette
+  - Alternative to postal code for unhoused individuals
 
 #### UI Work
 

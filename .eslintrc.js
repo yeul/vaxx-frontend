@@ -41,5 +41,6 @@ module.exports = {
     "no-use-before-define": [0],
     "@typescript-eslint/no-use-before-define": [1],
     "@typescript-eslint/indent": ["error", 2],
+    "react/prop-types": 0,
   },
 };
