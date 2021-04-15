@@ -1,0 +1,1 @@
+Utility functions go here. Feel free to make folders for things like validators, etc.

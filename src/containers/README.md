@@ -1,0 +1,1 @@
+ Components that are wired to the app state, or being supplied with additional information/logic, before being imported into to a template or a page.
