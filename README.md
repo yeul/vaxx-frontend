@@ -38,6 +38,10 @@ const Component: React.FC<ComponentProps> = ({foo, bar}) => <div>{foo}{bar}</div
 
 ```
 
+## Tabs or Spaces?
+
+Set your tab to insert 2 spaces on your text editor.
+
 ### Should I use `any` in type?
 
 As a rule of thumb: no. We will turn away most PRs using an `any`. If you feel like you need to use `any`, here's what you can do: 
