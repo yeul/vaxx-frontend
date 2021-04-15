@@ -52,10 +52,10 @@ Big idea: twitter followers see slots available
         
 ### Work:
 
-[] Implement Multilingual Support (does Next's i18n cut it? investigate)
+[ ] Implement Multilingual Support (does Next's i18n cut it? investigate)
     a. https://nextjs.org/docs/advanced-features/i18n-routing
-[] Investigate whether we need to support IE11 
-[] Establish accessibility compliance goals
+[ ] Investigate whether we need to support IE11 
+[ ] Establish accessibility compliance goals
     - Descriptive Buttons/links (non symbolic)
     - Low stimulus colour palette 
-[] Form: Age / Postal Code / Checklist
+[ ] Form: Age / Postal Code / Checklist
