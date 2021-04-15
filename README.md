@@ -79,3 +79,10 @@ Big idea: twitter followers see slots available
 #### UI Work
 
 - [ ] Form: Age / Postal Code / Checklist
+
+#### Testing
+
+- [ ] Implement Jest
+- [ ] Implement PlayWright
+- [ ] Add [husky](https://www.npmjs.com/package/husky) for pre-commit hooks (build/lint)
+- [ ] Add additional strictness to linting rules
