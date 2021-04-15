@@ -11,6 +11,10 @@
 
 This isn't designed to ingest personally identifiable information (PII); by requesting birth year, and the first 3 digits of the user's postal code, we should be free of any PIPEDA or PII issues.
 
+### Why First 3 Digits of Postal Code
+
+It frankly, would be easier for users to enter their address if they don't remember their postal code, or first three digits; however unless we can get access somehow to Canada Post's location API, it might be safer to have users explicity state what postal code they're looking for. Alternatives to Canada Post (i.e. Google) can return potentially incorrect postal codes for addresses for new constructions and that can prevent users from finding valid vaccination sites.
+
 ## To Do
 
 ======
