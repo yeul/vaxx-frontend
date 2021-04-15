@@ -1,7 +1,8 @@
 import React from "react";
+import { WelcomeText } from "../src/containers/welcome-text";
 
 const HomePage = () => {
-  return <div>Welcome to Next.js!</div>;
+  return <WelcomeText />;
 };
 
 export default HomePage;
