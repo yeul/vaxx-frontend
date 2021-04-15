@@ -1,0 +1,19 @@
+{
+  "name": "vaxx-frontend",
+  "version": "0.0.1",
+  "description": "A front end for finding vaccinations in Canada",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singularitypress/vaxx-frontend.git"
+  },
+  "author": "Jay Pandya, Sushil Tailor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/singularitypress/vaxx-frontend/issues"
+  },
+  "homepage": "https://github.com/singularitypress/vaxx-frontend#readme"
+}
