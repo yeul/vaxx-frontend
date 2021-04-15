@@ -15,6 +15,14 @@ This isn't designed to ingest personally identifiable information (PII); by requ
 
 It frankly, would be easier for users to enter their address if they don't remember their postal code, or first three digits; however unless we can get access somehow to Canada Post's location API, it might be safer to have users explicity state what postal code they're looking for. Alternatives to Canada Post (i.e. Google) can return potentially incorrect postal codes for addresses for new constructions and that can prevent users from finding valid vaccination sites.
 
+### Functional MVP (TODO: AODA)
+
+The tl;dr of the functionality this should have:
+
+1. User to enter birth year _and_ first three digits of their postal code, submit
+2. If the above are submitted, POST to an API, get a list of registration links, render list of links
+3. Language dropdown (EN/FR, maybe more?)
+
 ## To Do
 
 ======
