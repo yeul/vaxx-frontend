@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/singularitypress/vaxx-frontend.git"
   },
-  "author": "Jay Pandya, Sushil Tailor",
+  "author": "Jay Pandya, Sushil Tailor, Julia Furman",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/singularitypress/vaxx-frontend/issues"
