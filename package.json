@@ -8,7 +8,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint \"**/*{.ts,.tsx}\" --ignore-pattern node_modules/"
+    "lint": "eslint \"**/*{.ts,.tsx}\" --ignore-pattern node_modules/",
+    "pre-commit": "eslint \"**/*{.ts,.tsx}\" --ignore-pattern node_modules/"
   },
   "repository": {
     "type": "git",
